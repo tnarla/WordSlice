@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AC39348183BECC200102E8F /* Anagrams-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AC39326183BECC200102E8F /* Anagrams-Info.plist */; };
+		8AC39349183BECC200102E8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC39329183BECC200102E8F /* AppDelegate.m */; };
+		8AC3934A183BECC200102E8F /* board.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC3932A183BECC200102E8F /* board.jpg */; };
+		8AC3934B183BECC200102E8F /* board@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AC3932B183BECC200102E8F /* board@2x.jpg */; };
+		8AC3934C183BECC200102E8F /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC3932C183BECC200102E8F /* btn.png */; };
+		8AC3934D183BECC200102E8F /* btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC3932D183BECC200102E8F /* btn@2x.png */; };
+		8AC3934E183BECC200102E8F /* Comic_Andy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AC3932E183BECC200102E8F /* Comic_Andy.ttf */; };
+		8AC3934F183BECC200102E8F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC39330183BECC200102E8F /* Default-568h@2x.png */; };
+		8AC39350183BECC200102E8F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC39331183BECC200102E8F /* Default.png */; };
+		8AC39351183BECC200102E8F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC39332183BECC200102E8F /* Default@2x.png */; };
+		8AC39352183BECC200102E8F /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8AC39333183BECC200102E8F /* ding.mp3 */; };
+		8AC39353183BECC200102E8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AC39334183BECC200102E8F /* InfoPlist.strings */; };
+		8AC39354183BECC200102E8F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC39336183BECC200102E8F /* MainStoryboard.storyboard */; };
+		8AC39355183BECC200102E8F /* level1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AC39338183BECC200102E8F /* level1.plist */; };
+		8AC39356183BECC200102E8F /* level2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AC39339183BECC200102E8F /* level2.plist */; };
+		8AC39357183BECC200102E8F /* level3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AC3933A183BECC200102E8F /* level3.plist */; };
+		8AC39358183BECC200102E8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC3933B183BECC200102E8F /* main.m */; };
+		8AC39359183BECC200102E8F /* particle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC3933C183BECC200102E8F /* particle.png */; };
+		8AC3935A183BECC200102E8F /* slot.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC3933D183BECC200102E8F /* slot.png */; };
+		8AC3935B183BECC200102E8F /* slot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC3933E183BECC200102E8F /* slot@2x.png */; };
+		8AC3935C183BECC200102E8F /* tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC3933F183BECC200102E8F /* tile.png */; };
+		8AC3935D183BECC200102E8F /* tile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC39340183BECC200102E8F /* tile@2x.png */; };
+		8AC3935E183BECC200102E8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC39342183BECC200102E8F /* ViewController.m */; };
+		8AC3935F183BECC200102E8F /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8AC39343183BECC200102E8F /* win.mp3 */; };
+		8AC39360183BECC200102E8F /* wrong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8AC39344183BECC200102E8F /* wrong.m4a */; };
 		8ACDA142183183E300D4072B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACDA141183183E300D4072B /* QuartzCore.framework */; };
 		8ACDA144183183E300D4072B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACDA143183183E300D4072B /* OpenGLES.framework */; };
 		8ACDA146183183E300D4072B /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACDA145183183E300D4072B /* OpenAL.framework */; };
@@ -122,9 +147,50 @@
 		8ACDA2A5183183E500D4072B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACDA2A4183183E500D4072B /* AppDelegate.m */; };
 		8ACDA2A8183183E500D4072B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACDA2A7183183E500D4072B /* RootViewController.m */; };
 		8ACDA2AB183183E500D4072B /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACDA2AA183183E500D4072B /* HelloWorldLayer.m */; };
+		8ACDA2B3183184A100D4072B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ACDA2B2183184A100D4072B /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8AC39362183BECC200102E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AC39345183BECC200102E8F /* Anagrams.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9CCA409D16CFD85A00B16E42;
+			remoteInfo = Anagrams;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		8AC39326183BECC200102E8F /* Anagrams-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Anagrams-Info.plist"; sourceTree = "<group>"; };
+		8AC39327183BECC200102E8F /* Anagrams-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Anagrams-Prefix.pch"; sourceTree = "<group>"; };
+		8AC39328183BECC200102E8F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AC39329183BECC200102E8F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AC3932A183BECC200102E8F /* board.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = board.jpg; sourceTree = "<group>"; };
+		8AC3932B183BECC200102E8F /* board@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "board@2x.jpg"; sourceTree = "<group>"; };
+		8AC3932C183BECC200102E8F /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn.png; sourceTree = "<group>"; };
+		8AC3932D183BECC200102E8F /* btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn@2x.png"; sourceTree = "<group>"; };
+		8AC3932E183BECC200102E8F /* Comic_Andy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comic_Andy.ttf; sourceTree = "<group>"; };
+		8AC3932F183BECC200102E8F /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		8AC39330183BECC200102E8F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8AC39331183BECC200102E8F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8AC39332183BECC200102E8F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8AC39333183BECC200102E8F /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
+		8AC39335183BECC200102E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AC39337183BECC200102E8F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8AC39338183BECC200102E8F /* level1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level1.plist; sourceTree = "<group>"; };
+		8AC39339183BECC200102E8F /* level2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level2.plist; sourceTree = "<group>"; };
+		8AC3933A183BECC200102E8F /* level3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level3.plist; sourceTree = "<group>"; };
+		8AC3933B183BECC200102E8F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AC3933C183BECC200102E8F /* particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particle.png; sourceTree = "<group>"; };
+		8AC3933D183BECC200102E8F /* slot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slot.png; sourceTree = "<group>"; };
+		8AC3933E183BECC200102E8F /* slot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slot@2x.png"; sourceTree = "<group>"; };
+		8AC3933F183BECC200102E8F /* tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile.png; sourceTree = "<group>"; };
+		8AC39340183BECC200102E8F /* tile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tile@2x.png"; sourceTree = "<group>"; };
+		8AC39341183BECC200102E8F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8AC39342183BECC200102E8F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AC39343183BECC200102E8F /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		8AC39344183BECC200102E8F /* wrong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wrong.m4a; sourceTree = "<group>"; };
+		8AC39345183BECC200102E8F /* Anagrams.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Anagrams.xcodeproj; path = "../../Downloads/Anagrams-Part-1-Starter/Anagrams.xcodeproj"; sourceTree = "<group>"; };
 		8ACDA13E183183E300D4072B /* WordSlice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordSlice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ACDA141183183E300D4072B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8ACDA143183183E300D4072B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -360,6 +426,7 @@
 		8ACDA2A9183183E500D4072B /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
 		8ACDA2AA183183E500D4072B /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		8ACDA2AC183183E500D4072B /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
+		8ACDA2B2183184A100D4072B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -381,12 +448,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AC39325183BECC200102E8F /* Anagrams */ = {
+			isa = PBXGroup;
+			children = (
+				8AC39326183BECC200102E8F /* Anagrams-Info.plist */,
+				8AC39327183BECC200102E8F /* Anagrams-Prefix.pch */,
+				8AC39328183BECC200102E8F /* AppDelegate.h */,
+				8AC39329183BECC200102E8F /* AppDelegate.m */,
+				8AC3932A183BECC200102E8F /* board.jpg */,
+				8AC3932B183BECC200102E8F /* board@2x.jpg */,
+				8AC3932C183BECC200102E8F /* btn.png */,
+				8AC3932D183BECC200102E8F /* btn@2x.png */,
+				8AC3932E183BECC200102E8F /* Comic_Andy.ttf */,
+				8AC3932F183BECC200102E8F /* config.h */,
+				8AC39330183BECC200102E8F /* Default-568h@2x.png */,
+				8AC39331183BECC200102E8F /* Default.png */,
+				8AC39332183BECC200102E8F /* Default@2x.png */,
+				8AC39333183BECC200102E8F /* ding.mp3 */,
+				8AC39334183BECC200102E8F /* InfoPlist.strings */,
+				8AC39336183BECC200102E8F /* MainStoryboard.storyboard */,
+				8AC39338183BECC200102E8F /* level1.plist */,
+				8AC39339183BECC200102E8F /* level2.plist */,
+				8AC3933A183BECC200102E8F /* level3.plist */,
+				8AC3933B183BECC200102E8F /* main.m */,
+				8AC3933C183BECC200102E8F /* particle.png */,
+				8AC3933D183BECC200102E8F /* slot.png */,
+				8AC3933E183BECC200102E8F /* slot@2x.png */,
+				8AC3933F183BECC200102E8F /* tile.png */,
+				8AC39340183BECC200102E8F /* tile@2x.png */,
+				8AC39341183BECC200102E8F /* ViewController.h */,
+				8AC39342183BECC200102E8F /* ViewController.m */,
+				8AC39343183BECC200102E8F /* win.mp3 */,
+				8AC39344183BECC200102E8F /* wrong.m4a */,
+			);
+			name = Anagrams;
+			path = "../../Downloads/Anagrams-Part-1-Starter/Anagrams";
+			sourceTree = "<group>";
+		};
+		8AC39346183BECC200102E8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AC39363183BECC200102E8F /* Anagrams.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8ACDA135183183E300D4072B = {
 			isa = PBXGroup;
 			children = (
+				8ACDA2B2183184A100D4072B /* Default-568h@2x.png */,
 				8ACDA151183183E300D4072B /* WordSlice */,
 				8ACDA140183183E300D4072B /* Frameworks */,
 				8ACDA13F183183E300D4072B /* Products */,
+				8AC39325183BECC200102E8F /* Anagrams */,
+				8AC39345183BECC200102E8F /* Anagrams.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -796,6 +911,12 @@
 			mainGroup = 8ACDA135183183E300D4072B;
 			productRefGroup = 8ACDA13F183183E300D4072B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8AC39346183BECC200102E8F /* Products */;
+					ProjectRef = 8AC39345183BECC200102E8F /* Anagrams.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8ACDA13D183183E300D4072B /* WordSlice */,
@@ -803,20 +924,53 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		8AC39363183BECC200102E8F /* Anagrams.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Anagrams.app;
+			remoteRef = 8AC39362183BECC200102E8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		8ACDA13C183183E300D4072B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC39356183BECC200102E8F /* level2.plist in Resources */,
+				8AC3934E183BECC200102E8F /* Comic_Andy.ttf in Resources */,
+				8AC3935D183BECC200102E8F /* tile@2x.png in Resources */,
+				8AC3935A183BECC200102E8F /* slot.png in Resources */,
+				8AC39353183BECC200102E8F /* InfoPlist.strings in Resources */,
+				8AC39350183BECC200102E8F /* Default.png in Resources */,
+				8AC39360183BECC200102E8F /* wrong.m4a in Resources */,
+				8AC3934B183BECC200102E8F /* board@2x.jpg in Resources */,
 				8ACDA154183183E300D4072B /* Default.png in Resources */,
+				8AC39348183BECC200102E8F /* Anagrams-Info.plist in Resources */,
+				8AC39359183BECC200102E8F /* particle.png in Resources */,
 				8ACDA162183183E300D4072B /* Icon@2x.png in Resources */,
+				8AC3935F183BECC200102E8F /* win.mp3 in Resources */,
+				8AC3935B183BECC200102E8F /* slot@2x.png in Resources */,
+				8AC3934C183BECC200102E8F /* btn.png in Resources */,
 				8ACDA15A183183E300D4072B /* Icon-Small-50.png in Resources */,
+				8ACDA2B3183184A100D4072B /* Default-568h@2x.png in Resources */,
+				8AC3934F183BECC200102E8F /* Default-568h@2x.png in Resources */,
+				8AC39357183BECC200102E8F /* level3.plist in Resources */,
+				8AC3935C183BECC200102E8F /* tile.png in Resources */,
 				8ACDA156183183E300D4072B /* fps_images.png in Resources */,
+				8AC39354183BECC200102E8F /* MainStoryboard.storyboard in Resources */,
 				8ACDA165183183E300D4072B /* iTunesArtwork in Resources */,
 				8ACDA15E183183E300D4072B /* Icon-Small@2x.png in Resources */,
+				8AC3934A183BECC200102E8F /* board.jpg in Resources */,
 				8ACDA15C183183E300D4072B /* Icon-Small.png in Resources */,
 				8ACDA160183183E300D4072B /* Icon.png in Resources */,
+				8AC39352183BECC200102E8F /* ding.mp3 in Resources */,
+				8AC39351183BECC200102E8F /* Default@2x.png in Resources */,
+				8AC3934D183BECC200102E8F /* btn@2x.png in Resources */,
 				8ACDA158183183E300D4072B /* Icon-72.png in Resources */,
+				8AC39355183BECC200102E8F /* level1.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -838,6 +992,7 @@
 				8ACDA1E5183183E400D4072B /* CCSprite.m in Sources */,
 				8ACDA27A183183E500D4072B /* CDataScanner.m in Sources */,
 				8ACDA206183183E400D4072B /* CCTMXTiledMap.m in Sources */,
+				8AC39349183BECC200102E8F /* AppDelegate.m in Sources */,
 				8ACDA296183183E500D4072B /* FontManager.m in Sources */,
 				8ACDA24B183183E500D4072B /* ccUtils.c in Sources */,
 				8ACDA1A4183183E400D4072B /* CCDrawingPrimitives.m in Sources */,
@@ -890,6 +1045,7 @@
 				8ACDA227183183E500D4072B /* EAGLView.m in Sources */,
 				8ACDA28B183183E500D4072B /* CJSONSerializer.m in Sources */,
 				8ACDA267183183E500D4072B /* CocosDenshion.m in Sources */,
+				8AC3935E183BECC200102E8F /* ViewController.m in Sources */,
 				8ACDA281183183E500D4072B /* NSDictionary_JSONExtensions.m in Sources */,
 				8ACDA19E183183E400D4072B /* CCConfiguration.m in Sources */,
 				8ACDA209183183E500D4072B /* CCTMXXMLParser.m in Sources */,
@@ -916,6 +1072,7 @@
 				8ACDA1B0183183E400D4072B /* CCLabelBMFont.m in Sources */,
 				8ACDA224183183E500D4072B /* CCTouchHandler.m in Sources */,
 				8ACDA288183183E500D4072B /* CJSONScanner.m in Sources */,
+				8AC39358183BECC200102E8F /* main.m in Sources */,
 				8ACDA221183183E500D4072B /* CCTouchDispatcher.m in Sources */,
 				8ACDA242183183E500D4072B /* CCArray.m in Sources */,
 				8ACDA1CC183183E400D4072B /* CCParticleSystem.m in Sources */,
@@ -929,6 +1086,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8AC39334183BECC200102E8F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC39335183BECC200102E8F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8AC39336183BECC200102E8F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC39337183BECC200102E8F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8ACDA2AD183183E500D4072B /* Debug */ = {
@@ -976,9 +1152,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WordSlice/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = WordSlice/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -991,9 +1170,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WordSlice/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = WordSlice/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1018,6 +1200,7 @@
 				8ACDA2B1183183E500D4072B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
